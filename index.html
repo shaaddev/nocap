@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Company Design</title>
+        <link rel="icon" href="images/icons/pin.png" type="image/x-icon">
         <!-- Regular CSS -->
         <link rel="stylesheet" href="style.css">
         <!-- Bootstrap 5 -->
@@ -17,8 +18,8 @@
             <ul>
                 <li><a href="#h1">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#h4">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
 
@@ -41,8 +42,8 @@
             Vero totam, dolores facilis architecto aut obcaecati consequatur nobis excepturi error odit, adipisci voluptates officiis consequuntur suscipit minima animi sint quo. Laudantium provident voluptatem atque obcaecati fugiat, nobis dolorem id?</p>
         </div>
 
-        <div id="h4" class="container mx-auto" style="min-height: 25vh; text-align: right; color: #f5f5f5; background-color: #3498DB; padding: 10px; margin-top: 10%; width: 500px; justify-items: right;">
-            <h4>Hello World</h4>
+        <div id="h4" class="container mx-auto" style="min-height: 25vh; text-align: justify; color: #f5f5f5; background-color: #3498DB; padding: 10px; margin-top: 10%; width: 500px;">
+            <h4 style="text-align: right">Hello World</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti asperiores adipisci eligendi, eos esse velit tempore magnam officia ipsam provident ea voluptates delectus quae sunt soluta minus debitis mollitia?</p>
         </div>
 
@@ -51,9 +52,19 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam et in pariatur laboriosam eos eaque facilis ratione laudantium voluptates consectetur perspiciatis inventore culpa, doloremque, possimus animi temporibus, necessitatibus iure quos!</p>
         </div>
 
-        <div id="about" class="about-us" style="min-height: 90vh; margin-top: 10%; margin-bottom: 0;">
+        <div id="about" class="about-us" style="min-height: 100vh; margin-top: 10%;">
             <h1>About Us</h1>
-            <p style="margin-bottom: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore excepturi harum, aspernatur sint ducimus nemo, maxime enim libero rerum totam modi? Explicabo saepe magni cupiditate non ullam dolor exercitationem reprehenderit?</p>
+            <p style="margin-bottom: 25px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias laborum hic dignissimos saepe itaque rem, accusamus sed similique nostrum magni optio maxime odio exercitationem possimus explicabo pariatur adipisci officia quam!
+            Sapiente ex dicta, ducimus aspernatur vero ad dolorum quis similique molestias dolor harum assumenda porro saepe deserunt quos aliquid placeat officiis cumque nesciunt consectetur magnam voluptas deleniti sit. Nesciunt, impedit.
+            Sunt, deleniti ipsum ullam, corporis quisquam fugit quaerat illum nemo ipsa dolores fugiat ducimus deserunt in vitae nesciunt tempora facilis sint consequuntur? Ex quis recusandae fuga earum fugit! Voluptatum, esse.
+            Alias ipsum laboriosam voluptatibus sapiente. Distinctio laboriosam, voluptatum, vel quos at adipisci earum voluptatem impedit eos quae aut vero corporis incidunt dolores molestias eveniet! Impedit dicta nostrum illo quod ullam.
+            Nobis nemo mollitia, facilis rerum nisi aperiam asperiores, iure qui aut repudiandae excepturi tenetur facere praesentium deleniti quos debitis! Porro neque deserunt ipsam natus a, et distinctio perferendis molestiae. Nemo.
+            Doloribus porro exercitationem veniam! Odio sed modi voluptate minima temporibus repudiandae et reprehenderit quasi vitae nemo soluta dolorem voluptates, beatae earum iste nostrum blanditiis doloribus ipsum dicta cum odit? Ad!
+            Nobis ab accusamus explicabo laborum ipsam? Omnis nisi laboriosam voluptatum, tenetur vero ut dicta quisquam sint consequuntur in quod fugiat libero voluptate iste est voluptates possimus rem, laudantium perferendis ad?
+            Deserunt, sint? Sint inventore enim sed nihil dolor at vitae eaque nisi quam pariatur recusandae facere necessitatibus illo quis obcaecati quod tempora, ipsum dignissimos repudiandae ullam laborum odit dicta est.
+            Optio id labore quos tempora quidem! Similique vel quidem autem deleniti? Veniam commodi doloremque rerum sequi. Quasi sunt, voluptatem, perspiciatis culpa inventore facere distinctio suscipit tempore beatae, ipsam provident officiis?
+            Ut nesciunt quod, consequatur incidunt odio fugit ex? Unde repellendus recusandae quibusdam ad voluptate hic repudiandae minima, sit eveniet illum architecto doloremque quidem quisquam, numquam perferendis adipisci vero dolor assumenda!
+            </p>
 
             <h2>Stakeholders</h2>
             <ul>
@@ -69,7 +80,7 @@
         </div>
 
         <div id="contact" class="contact-us" style="min-height: 75vh; margin-top: 0;">
-            <div class="container" style="margin-bottom: 20px;">
+            <div class="container">
                 <h4 style="text-align: center; margin: 25px;">Contact Us Here</h4>
                 <form method="POST" class="newsletter">
                     <div class="form-group">
@@ -81,15 +92,15 @@
                         <input type="email" class="form-control" id="email" name="email" >
                     </div>
                     <div class="form-group">   
-                        <label for="company" class="form-label">Company/Organization <b>*</b></label>
+                        <label for="company" class="form-label">Company/Organization</label>
                         <input type="text" class="form-control" id="company" name="company" >
                     </div>
                     <div class="form-group"> 
                         <label for="comment" class="form-label">Comment or Message <b>*</b></label>
                         <textarea type="text" class="form-control" id="comment" name="comment"></textarea>
                     </div>
-                    <input type="submit" class="btn btn-danger" value="Subscribe!">                    
-                </form>   
+                    <a href="#" type="submit" class="btn btn-danger" style="margin-top: 15px;">Subscribe!</a> 
+                </form>  
             </div>
         </div>
 

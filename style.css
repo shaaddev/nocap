@@ -65,7 +65,7 @@ li {
     position: relative;
     width: 100%;
     background: #fff;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .about-us h1 {
@@ -79,6 +79,7 @@ li {
 }
 
 .about-us p {
+    text-align: justify;
     margin: 20px;
 }
 
@@ -107,7 +108,7 @@ li {
 .contact-us {
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background: #839192;
 }
 
@@ -126,7 +127,7 @@ footer {
     position: absolute;
     padding: 100px;
     margin: 0 auto;
-    margin-top: 10%;
+    /* margin-top: 0; */
     background-color: rgb(43, 57, 68);
     width: 100%;
     /* bottom: 0; */
